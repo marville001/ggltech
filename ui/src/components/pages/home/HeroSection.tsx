@@ -7,7 +7,7 @@ import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
 
 const HeroSection = () => {
 	return (
-		<div className="mx-auto relative isolate flex max-w-7xl md:flex-row justify-between p-6 lg:px-8 gap-4 flex-col-reverse items-center">
+		<div className="mx-auto relative isolate flex max-w-7xl md:flex-row justify-between p-6 md:py-8 lg:py-12 lg:px-8 gap-4 flex-col-reverse items-center">
 			<div
 				className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
 				aria-hidden="true"
@@ -26,12 +26,12 @@ const HeroSection = () => {
 				<p className="mt-4 md:mt-8 md:text-lg">We’re a software development company that loves finding solutions to complicated problems! We focus on the betting industry, but we also implement solutions for fintech, healthcare, IoT, and startups. By creating fast and efficient mobile and web applications, we will help your business grow.</p>
 
 				<div className="mt-4 flex gap-4">
-					<Link href={"/about-us"} className={cn(buttonVariants(), "!px-8 h-auto items-center text-lg inline-flex gap-2 mt-4")}>
-						<ChatBubbleLeftRightIcon className="w-6 h-6" />
+					<Link href={"/about-us"} className={cn(buttonVariants(), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
+						<ChatBubbleLeftRightIcon className="w-4 md:w-6 h-4 md:h-6" />
 						Learn More
 					</Link>
-					<Link href={"/contact-us"} className={cn(buttonVariants({ variant: "outline" }), "!px-8 h-auto items-center text-lg inline-flex gap-2 mt-4")}>
-						<ChatBubbleLeftRightIcon className="w-6 h-6" />
+					<Link href={"/contact-us"} className={cn(buttonVariants({ variant: "outline" }), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
+						<ChatBubbleLeftRightIcon className="w-4 md:w-6 h-4 md:h-6" />
 						Contact Us
 					</Link>
 				</div>
