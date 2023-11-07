@@ -11,7 +11,7 @@ const SectionTitle = ({ title, summary }: IProps) => {
 			<h2 className="text-2xl font-semibold text-primary">{title}</h2>
 			{
 				summary && (
-					<p className="max-w-[3xl] mt-3 md:text-lg">{summary}</p>
+					<p className="max-w-2xl text-center mx-auto mt-3 md:text-lg">{summary}</p>
 				)
 			}
 		</div>

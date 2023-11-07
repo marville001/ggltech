@@ -23,7 +23,7 @@ const HeroSection = () => {
 
 			<div className="flex-1">
 				<h1 className="font-bold text-2xl md:text-4xl text-primary">Welcome to GGL Technologies</h1>
-				<p className="mt-4 md:mt-8 md:text-lg">We’re a software development company that loves finding solutions to complicated problems! We focus on the betting industry, but we also implement solutions for fintech, healthcare, IoT, and startups. By creating fast and efficient mobile and web applications, we will help your business grow.</p>
+				<p className="mt-4 md:mt-8 md:text-lg">We’re a software development company that loves finding solutions to complicated problems! We focus on the construction industry, but we also implement solutions for fintech, healthcare, IoT, startups and other industries. By creating fast and efficient mobile and web applications, we will help your business grow.</p>
 
 				<div className="mt-4 flex gap-4">
 					<Link href={"/about-us"} className={cn(buttonVariants(), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
