@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"title": "What services do you offer as a web & app development company?",
+		"content": "We specialize in custom web and mobile app development, offering a wide range of services, from design and development to maintenance and support."
+	},
+	{
+		"id": 2,
+		"title": "What is the typical timeline for a web or app development project?",
+		"content": "Timelines vary based on project complexity, but we work efficiently to deliver projects within mutually agreed upon timeframes."
+	},
+	{
+		"id": 3,
+		"title": "How do you ensure the security of the projects you develop?",
+		"content": "We prioritize security through rigorous testing, encryption, and best practices to safeguard your projects from potential threats."
+	},
+	{
+		"id": 3,
+		"title": "Can you provide examples of previous work and client references?",
+		"content": "Yes, we can showcase our portfolio and connect you with satisfied clients who have experienced our top-quality web and app development services.."
+	}
+]
