@@ -10,9 +10,15 @@ const Home = () => {
 
       <HeroSection />
 
+      <hr className="opacity-25" />
+
       <AboutSection />
 
+      <hr className="opacity-25" />
+
       <ServicesSection />
+
+      <hr className="opacity-25" />
 
       <FaqsSection />
 
