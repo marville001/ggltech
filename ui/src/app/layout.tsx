@@ -27,7 +27,10 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        {children}
+        <MainHeader />
+        <div className="pt-[80px]">
+          {children}
+        </div>
       </body>
     </html>
   );
