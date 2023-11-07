@@ -21,8 +21,8 @@ const MainHeader = () => {
 				<div className="flex lg:flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">GGL Tech</span>
-						<div className="w-[60px] h-[60px]">
-							<Image width={80} height={80} className="!w-full !h-full object-cover" src="/images/logo.svg" alt="" />
+						<div className="w-[45px] h-[45px]">
+							<Image width={50} height={50} className="!w-full rounded-full !h-full object-cover" src="/images/logo.svg" alt="" />
 						</div>
 					</Link>
 				</div>
