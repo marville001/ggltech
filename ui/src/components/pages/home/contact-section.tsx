@@ -8,24 +8,24 @@ const ContactSection = () => {
 			<div className="mx-auto max-w-6xl flex-wrap flex justify-center px-4 gap-4 xl:gap-8 items-center py-6">
 				<div className="flex items-center gap-4 flex-col sm:flex-row py-4 flex-1">
 					<Clock className="h-14 w-14" />
-					<Link href="tel:" className="flex flex-col items-center sm:items-start">
+					<Link href="tel:+254704437066" className="flex flex-col items-center sm:items-start">
 						<span className="text-lg">Mon-Fri 8am-5pm</span>
 						<span className="text-2xl font-bold">+254704437066</span>
 					</Link>
 				</div>
 				<div className="flex items-center gap-4 flex-col sm:flex-row py-4 flex-1">
 					<Mail className="h-14 w-14" />
-					<Link href="tel:" className="flex flex-col items-center sm:items-start">
+					<Link href="mailto:contact@ggltechnologies.com" className="flex flex-col items-center sm:items-start">
 						<span className="text-lg">Support Mail</span>
 						<span className="text-2xl font-bold">contact@ggltechnologies.com</span>
 					</Link>
 				</div>
 				<div className="flex items-center gap-4 flex-col sm:flex-row py-4 flex-1">
 					<MapPin className="h-14 w-14" />
-					<Link href="tel:" className="flex flex-col items-center sm:items-start">
+					<div className="flex flex-col items-center sm:items-start">
 						<span className="text-lg">Nairobi, Kenya</span>
 						<span className="text-2xl font-bold">Kimathi Way Plaza</span>
-					</Link>
+					</div>
 				</div>
 			</div>
 		</div>
