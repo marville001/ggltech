@@ -7,7 +7,7 @@ import React from 'react';
 
 const AboutSection = () => {
 	return (
-		<section className="mx-auto max-w-7xl p-6 md:py-8 lg:py-12 lg:px-8">
+		<section id="about-us" className="mx-auto max-w-7xl p-2 sm:p-6 md:py-8 lg:py-12 lg:px-8">
 			<div className="flex py-8 md:items-center flex-col gap-6 md:flex-row">
 				<div className="flex-1">
 					<Image
