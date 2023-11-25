@@ -49,7 +49,7 @@ export default function RootLayout({
         )}
       >
         <MainHeader />
-        <div className="pt-[80px]">
+        <div className="pt-[100px]">
           {children}
         </div>
       </body>
