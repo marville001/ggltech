@@ -45,9 +45,7 @@ const FaqsSection = () => {
 					}
 
 				</div>
-
 			</div>
-
 		</section>
 	);
 };
