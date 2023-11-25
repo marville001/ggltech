@@ -15,6 +15,10 @@ import Image from "next/image";
 const MainHeader = () => {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+	const closeMenu = () => {
+		setMobileMenuOpen(false);
+	};
+
 	return (
 		<header className="bg-white bottom_shadow fixed inset-x-0 top-0 z-[5]">
 			<nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -40,16 +44,16 @@ const MainHeader = () => {
 					<Link href="/" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Home
 					</Link>
-					<Link href="#portfolio" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
+					<Link href="/#portfolio" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Portfolio
 					</Link>
-					<Link href="#services" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
+					<Link href="/#services" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Services
 					</Link>
-					<Link href="#team" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
+					<Link href="/#team" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Our Team
 					</Link>
-					<Link href="#about-us" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
+					<Link href="/#about-us" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						About Us
 					</Link>
 				</div>
@@ -64,7 +68,8 @@ const MainHeader = () => {
 				<div className="fixed inset-0 z-10" />
 				<Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 					<div className="flex items-center justify-between">
-						<Link href="/" className="-m-1.5 p-1.5">
+						<Link
+							onClick={closeMenu} href="/" className="-m-1.5 p-1.5">
 							<span className="sr-only">Your Company</span>
 							<img
 								className="h-8 w-auto"
@@ -75,7 +80,7 @@ const MainHeader = () => {
 						<button
 							type="button"
 							className="-m-2.5 rounded-md p-2.5 text-gray-700"
-							onClick={() => setMobileMenuOpen(false)}
+							onClick={closeMenu}
 						>
 							<span className="sr-only">Close menu</span>
 							<XMarkIcon className="h-8 w-8" aria-hidden="true" />
@@ -85,31 +90,36 @@ const MainHeader = () => {
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className="space-y-2 py-6">
 								<Link
-									href="#"
+									onClick={closeMenu}
+									href="/"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Home
 								</Link>
 								<Link
-									href="#portfolio"
+									onClick={closeMenu}
+									href="/#portfolio"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Portfolio
 								</Link>
 								<Link
-									href="#services"
+									onClick={closeMenu}
+									href="/#services"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Services
 								</Link>
 								<Link
-									href="#team"
+									onClick={closeMenu}
+									href="/#our-team"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Our Team
 								</Link>
 								<Link
-									href="/about-us"
+									onClick={closeMenu}
+									href="/#about-us"
 									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									About Us
@@ -117,7 +127,8 @@ const MainHeader = () => {
 							</div>
 							<div className="py-6">
 								<Link
-									href="/contact-us"
+									onClick={closeMenu}
+									href="/#contact-us"
 									className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
 								>
 									Contact Us
