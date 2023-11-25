@@ -1,3 +1,4 @@
+import SectionTitleBorder from "@/components/common/SectionTitleBorder";
 import { buttonVariants } from "@/components/ui/button";
 import SectionTitle from "@/components/ui/section-title";
 import { cn } from "@/lib/utils";
@@ -7,16 +8,17 @@ import React from 'react';
 
 const AboutSection = () => {
 	return (
-		<section id="about-us" className="mx-auto max-w-7xl p-2 sm:p-6 md:py-8 lg:py-12 lg:px-8">
-			<div className="flex py-8 md:items-center flex-col gap-6 md:flex-row">
+		<section id="about-us" className="mx-auto max-w-5xl p-2 sm:p-6 md:py-8 lg:py-12 lg:px-8">
+			<div className="flex py-8 md:items-center flex-col gap-6 lg:gap-16 md:flex-row">
 				<div className="flex-1">
 					<Image
-						className="object-cover sm:!h-[400px]"
+						className="object-cover sm:!h-[450px] !w-full"
 						src="/images/technology-in-the-workplace.png" width={500} height={400} priority alt="About Us" />
 				</div>
 				<article className="flex-1">
 					<h2 className="text-2xl md:text-3xl text-primary capitalize leading-[40px] font-bold">About GGL Technologies</h2>
-					<p className="mt-6">
+					<SectionTitleBorder />
+					<p className="">
 						Welcome to GGL Technologies a software, web and graphic design company based in Kenya. We specialize in providing innovative solutions to businesses of all sizes in various industries. Our team of experts has a wealth of experience and knowledge in software development, web design, and graphic design, allowing us to deliver top-quality products and services to our clients.
 					</p>
 					<p className="mt-4">
