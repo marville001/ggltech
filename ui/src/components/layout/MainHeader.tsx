@@ -49,7 +49,7 @@ const MainHeader = () => {
 					<Link href="#team" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Our Team
 					</Link>
-					<Link href="/about-us" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
+					<Link href="#about-us" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						About Us
 					</Link>
 				</div>
