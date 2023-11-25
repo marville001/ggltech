@@ -9,23 +9,7 @@ const Home = () => {
   return (
     <div className="">
 
-      <HeroSection />
-
-      <hr className="opacity-25" />
-
-      <AboutSection />
-
-      <hr className="opacity-25" />
-
-      <ServicesSection />
-
-      <hr className="opacity-25" />
-
-      <ContactSection />
-
-      <hr className="opacity-25" />
-
-      <FaqsSection />
+      <h4>About US</h4>
 
     </div>
   );

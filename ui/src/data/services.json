@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "Software development",
+		"summary": "Our enterprise software solutions will help you improve your business operations with the custom-made enterprise software and platform-based solutions.",
+		"image": "/images/home-office.svg"
+	},
+	{
+		"id": 2,
+		"title": "Graphic design",
+		"summary": "Your design is what makes you different from your competitors and helps you to stand out in a crowded marketplace. Our team will create the difference you need to make your business stand out in the marketplace.",
+		"image": "/images/man-on-laptop-photoshop.svg"
+	},
+	{
+		"id": 3,
+		"title": "Web design",
+		"summary": "We provide web development services to a wide range of companies, from small businesses to large corporations. We match solutions to business needs which can scale over time.",
+		"image": "/images/web-design.svg"
+	},
+	{
+		"id": 4,
+		"title": "Search Engine Optimization (SEO)",
+		"summary": "We set realistic SEO goals based on the budget and your goals, which we can then achieve, refine, redefine and repeat. It's not only about ranking first, whether it's national or local SEO! What happens to your site when it appears on the first page of search results is what matters.",
+		"image": "/images/searching-location.svg"
+	}
+]
