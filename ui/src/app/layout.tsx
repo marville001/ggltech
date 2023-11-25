@@ -4,6 +4,7 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import MainHeader from "@/components/layout/MainHeader";
 import { METADATA } from "@/constants";
+import Footer from "@/components/layout/Footer";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -52,6 +53,8 @@ export default function RootLayout({
         <div className="pt-[100px]">
           {children}
         </div>
+
+        <Footer />
       </body>
     </html>
   );
