@@ -15,7 +15,7 @@ const AboutSection = () => {
 						src="/images/technology-in-the-workplace.png" width={500} height={400} priority alt="About Us" />
 				</div>
 				<article className="flex-1">
-					<h2 className="text-3xl text-primary capitalize leading-[40px] font-bold">About GGL Technologies</h2>
+					<h2 className="text-2xl md:text-3xl text-primary capitalize leading-[40px] font-bold">About GGL Technologies</h2>
 					<p className="mt-6">
 						Welcome to GGL Technologies a software, web and graphic design company based in Kenya. We specialize in providing innovative solutions to businesses of all sizes in various industries. Our team of experts has a wealth of experience and knowledge in software development, web design, and graphic design, allowing us to deliver top-quality products and services to our clients.
 					</p>
