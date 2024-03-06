@@ -1,19 +1,19 @@
 [
 	{
 		"id": 1,
-		"title": "Software development",
+		"title": "Software Development (Web & Mobile)",
 		"summary": "Our enterprise software solutions will help you improve your business operations with the custom-made enterprise software and platform-based solutions.",
 		"image": "/images/home-office.svg"
 	},
 	{
 		"id": 2,
-		"title": "Graphic design",
+		"title": "Graphic Design",
 		"summary": "Your design is what makes you different from your competitors and helps you to stand out in a crowded marketplace. Our team will create the difference you need to make your business stand out in the marketplace.",
 		"image": "/images/man-on-laptop-photoshop.svg"
 	},
 	{
 		"id": 3,
-		"title": "Web design",
+		"title": "Web Design",
 		"summary": "We provide web development services to a wide range of companies, from small businesses to large corporations. We match solutions to business needs which can scale over time.",
 		"image": "/images/web-design.svg"
 	},
@@ -22,5 +22,17 @@
 		"title": "Search Engine Optimization (SEO)",
 		"summary": "We set realistic SEO goals based on the budget and your goals, which we can then achieve, refine, redefine and repeat. It's not only about ranking first, whether it's national or local SEO! What happens to your site when it appears on the first page of search results is what matters.",
 		"image": "/images/searching-location.svg"
+	},
+	{
+		"id": 4,
+		"title": "Data Storytelling",
+		"summary": "We help you unlock valuable insights and make informed business decisions with our data analysis and visualization services, ensuring you stay ahead in today's competitive landscape.",
+		"image": "/images/data-visualization.svg"
+	},
+	{
+		"id": 5,
+		"title": "AI Prompting",
+		"summary": "We enhance your business processes with AI-driven prompts that automate and optimize various aspects of your operations to keep you at the forefront of innovation.",
+		"image": "/images/ai.svg"
 	}
 ]
