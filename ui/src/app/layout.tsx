@@ -50,7 +50,7 @@ export default function RootLayout({
         )}
       >
         <MainHeader />
-        <div className="pt-[100px]">
+        <div>
           {children}
         </div>
 

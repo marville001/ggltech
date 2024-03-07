@@ -20,7 +20,7 @@ const MainHeader = () => {
 	};
 
 	return (
-		<header className="bg-white bottom_shadow fixed inset-x-0 top-0 z-[5]">
+		<header className="bg-white bottom_shadow inset-x-0 top-0">
 			<nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
 				<div className="flex lg:flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
@@ -58,7 +58,7 @@ const MainHeader = () => {
 					</Link>
 				</div>
 				<div className="hidden lg:flex lg:flex-1 lg:justify-end">
-					<Link href="/contact-us" className={cn(buttonVariants(), "text-lg flex gap-2")}>
+					<Link href="/#contact-us" className={cn(buttonVariants(), "text-lg flex gap-2")}>
 						<ChatBubbleLeftRightIcon className="w-6 h-6" />
 						Contact Us
 					</Link>

@@ -26,7 +26,7 @@ const AboutSection = () => {
 					</p>
 
 					<Link
-						href="/about-us"
+						href="/#about-us"
 						className={
 							cn("mt-5", buttonVariants())
 						}
