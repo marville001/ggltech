@@ -1,10 +1,17 @@
 import { Clock, Mail, MapPin } from "lucide-react";
 import Link from "next/link";
 import React from 'react';
+import SectionTitleBorder from '@/components/common/SectionTitleBorder'
 
 const ContactSection = () => {
 	return (
-		<div className="bg-primary text-white" id="contact-us">
+		<div className="bg-primary text-white py-6 lg:py-12" id="contact-us">
+
+			<div className={"flex items-center justify-center flex-col"}>
+				<h2 className="text-2xl md:text-3xl text-white capitalize leading-[40px] font-bold">Contact Us</h2>
+				<SectionTitleBorder />
+			</div>
+
 			<div className="mx-auto max-w-6xl flex-wrap flex justify-center px-4 gap-4 xl:gap-8 items-center py-6">
 				<div className="flex items-center gap-4 flex-col sm:flex-row py-4 flex-1">
 					<Clock className="h-14 w-14" />
@@ -28,6 +35,8 @@ const ContactSection = () => {
 					</div>
 				</div>
 			</div>
+
+			
 		</div>
 	);
 };

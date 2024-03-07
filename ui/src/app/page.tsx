@@ -7,7 +7,7 @@ import ContactSection from "@/components/pages/home/contact-section";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="py-8">
 
       <HeroSection />
 
