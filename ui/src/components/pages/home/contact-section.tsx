@@ -23,14 +23,14 @@ const ContactSection = () => {
 					<Clock className="h-14 w-14"/>
 					<Link href="tel:+254704437066" className="flex flex-col items-center sm:items-start">
 						<span className="text-lg">Mon-Fri 8am-5pm</span>
-						<span className="text-2xl font-bold">+254704437066</span>
+						<span className="text-2xl font-bold">+254712059767</span>
 					</Link>
 				</div>
 				<div className="flex items-center gap-4 flex-col sm:flex-row py-4 flex-1">
 					<Mail className="h-14 w-14"/>
 					<Link href="mailto:grannexgrouplimited@com" className="flex flex-col items-center sm:items-start">
 						<span className="text-lg">Support Mail</span>
-						<span className="text-2xl font-bold">grannexgrouplimited@com</span>
+						<span className="text-2xl font-bold">nfo@grannexgrouplimited.com</span>
 					</Link>
 				</div>
 			</div>
