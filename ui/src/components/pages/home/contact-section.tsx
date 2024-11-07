@@ -30,7 +30,7 @@ const ContactSection = () => {
 					<Mail className="h-14 w-14"/>
 					<Link href="mailto:grannexgrouplimited@com" className="flex flex-col items-center sm:items-start">
 						<span className="text-lg">Support Mail</span>
-						<span className="text-2xl font-bold">nfo@grannexgrouplimited.com</span>
+						<span className="text-2xl font-bold">info@grannexgrouplimited.com</span>
 					</Link>
 				</div>
 			</div>
