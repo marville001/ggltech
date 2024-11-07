@@ -30,11 +30,11 @@ const HeroSection = () => {
 				<p className="md:text-lg">We’re a software development company that loves finding solutions to complicated problems! We focus on the construction industry, but we also implement solutions for fintech, healthcare, IoT, startups and other industries. By creating fast and efficient mobile and web applications, we will help your business grow.</p>
 
 				<div className="mt-4 flex gap-4">
-					<Link href={"/about-us"} className={cn(buttonVariants(), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
+					<Link href={"/#about-us"} className={cn(buttonVariants(), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
 						<ChatBubbleLeftRightIcon className="w-4 md:w-6 h-4 md:h-6" />
 						Learn More
 					</Link>
-					<Link href={"/contact-us"} className={cn(buttonVariants({ variant: "outline" }), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
+					<Link href={"/#contact-us"} className={cn(buttonVariants({ variant: "outline" }), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>
 						<ChatBubbleLeftRightIcon className="w-4 md:w-6 h-4 md:h-6" />
 						Contact Us
 					</Link>
