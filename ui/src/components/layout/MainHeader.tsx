@@ -90,13 +90,7 @@ const MainHeader = () => {
 								>
 									Home
 								</Link>
-								<Link
-									onClick={closeMenu}
-									href="/#portfolio"
-									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>
-									Portfolio
-								</Link>
+							
 								<Link
 									onClick={closeMenu}
 									href="/#services"
@@ -104,13 +98,7 @@ const MainHeader = () => {
 								>
 									Services
 								</Link>
-								<Link
-									onClick={closeMenu}
-									href="/#our-team"
-									className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-								>
-									Our Team
-								</Link>
+								
 								<Link
 									onClick={closeMenu}
 									href="/#about-us"
