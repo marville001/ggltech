@@ -44,14 +44,8 @@ const MainHeader = () => {
 					<Link href="/" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Home
 					</Link>
-					<Link href="/#portfolio" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
-						Portfolio
-					</Link>
 					<Link href="/#services" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						Services
-					</Link>
-					<Link href="/#team" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
-						Our Team
 					</Link>
 					<Link href="/#about-us" className="font-semibold hover:border-b-[3px] hover:border-b-primary leading-6 text-gray-900">
 						About Us
