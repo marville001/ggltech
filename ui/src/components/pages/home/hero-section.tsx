@@ -27,7 +27,12 @@ const HeroSection = () => {
 
 				<SectionTitleBorder />
 
-				<p className="md:text-lg">We’re a software development company that loves finding solutions to complicated problems! We focus on the construction industry, but we also implement solutions for fintech, healthcare, IoT, startups and other industries. By creating fast and efficient mobile and web applications, we will help your business grow.</p>
+				<p className="md:text-lg">
+					We&apos;re a software development company that loves finding solutions to complicated problems! We focus on the construction industry, but we also implement solutions for fintech, healthcare, IoT, startups, and other industries. By creating fast and efficient mobile and web applications, we will help your business grow.
+				</p>
+				<p className="md:text-lg mt-4">
+					Beyond delivering cutting-edge solutions, we are committed to community impact by empowering young ICT graduates—including developers and CRM support agents—through employment opportunities. By partnering with us, you&apos;re investing in innovative technology and contributing to the growth of local talent and communities.
+				</p>
 
 				<div className="mt-4 flex gap-4">
 					<Link href={"/#about-us"} className={cn(buttonVariants(), "px-3 md:!px-8 flex-1 sm:flex-none h-auto items-center md:text-lg inline-flex gap-2 mt-4")}>

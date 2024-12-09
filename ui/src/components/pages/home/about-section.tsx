@@ -19,18 +19,21 @@ const AboutSection = () => {
 					<h2 className="text-2xl md:text-3xl text-primary capitalize leading-[40px] font-bold">About GGL Technologies</h2>
 					<SectionTitleBorder />
 					<p className="">
-						Welcome to GGL Technologies a software, web and graphic design company based in Kenya. We specialize in providing innovative solutions to businesses of all sizes in various industries. Our team of experts has a wealth of experience and knowledge in software development, web design, and graphic design, allowing us to deliver top-quality products and services to our clients.
+						Welcome to GGL Technologies, a software, web, and graphic design company based in Kenya. We specialize in providing innovative solutions to businesses of all sizes across various industries. Our team of experts brings a wealth of experience and knowledge in software development, web design, and graphic design, enabling us to deliver top-quality products and services to our clients.
 					</p>
 					<p className="mt-4">
-						Our software development services cover a wide range of technologies, including mobile apps, desktop applications, and web-based solutions. Our web design services include website design, website development, website maintenance, and website hosting. Our graphic design services cover logo design, branding, print design, and social media graphics.
+						Our software development services encompass a wide range of technologies, including mobile apps, desktop applications, and web-based solutions. We offer comprehensive web design services, including website design, development, maintenance, and hosting. Our graphic design services include logo design, branding, print design, and social media graphics.
+					</p>
+					<p className="mt-4">
+						Beyond serving businesses, we are dedicated to nurturing talent in the ICT industry. We assist technical ICT graduates—including developers, CRM support agents, and other skilled professionals—in training and finding work opportunities. At GGL Technologies, we are passionate about empowering businesses and individuals to achieve their goals through technology and creativity.
 					</p>
 
-					<Link
+					{/* <Link
 						href="/#about-us"
 						className={
 							cn("mt-5", buttonVariants())
 						}
-					>Learn More</Link>
+					>Learn More</Link> */}
 				</article>
 			</div>
 		</section>
